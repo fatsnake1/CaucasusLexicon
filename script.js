@@ -44,7 +44,7 @@ const uiTranslations = {
         "contact-desc": "Interested in Caucasian symbolism? Contact me for research collaborations or high-resolution assets.",
         "modal-label-rep": "Symbol Representation",
         "modal-label-region": "Region of Origin",
-        "footer-text": "footer-text": "© 2026 Mikheil Juruli / მიხეილ ჟურული This website is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License v3.0 as published by the Free Software Foundation. This website is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. You can view the full license here: https://www.gnu.org/licenses/agpl-3.0.html Source code is available at: https://github.com/fatsnake1/CaucasusLexicon#",
+        "footer-text": "© 2026 Mikheil Juruli / მიხეილ ჟურული This website is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License v3.0 as published by the Free Software Foundation. This website is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. You can view the full license here: https://www.gnu.org/licenses/agpl-3.0.html Source code is available at: https://github.com/fatsnake1/CaucasusLexicon#",
         "tag-Celestial": "Celestial",
         "tag-Nature": "Nature",
         "tag-Geometric": "Geometric",
