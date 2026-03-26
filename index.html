@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compendium Caucasia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- !!!მომავალში არ დაგავიწყდეს ციტირების სექციის დამატება სიმბოლოების ქვევით ან ცალკე ნაწილში!!!-->
+     
+    <!-- ნავიგაცია -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+    <img src="assets/LogoLight.svg" alt="Compendium Caucasian Logo">
+
+    
+</a>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" data-i18n="nav-home">Home</a></li>
+                <li><a href="#dictionary" class="nav-link" data-i18n="nav-dict">Dictionary</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav-contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="lang-toggle" class="lang-btn">KA</button>
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <span class="sun-icon">○</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="fade-in" data-i18n="hero-title">Lexicon of Caucasian Symbolism: Ancient Wisdom in Visual Tradition</h1>
+                <p class="mission-statement fade-in" data-i18n="hero-desc">
+                    This Website seeks to compile the ancient symbols of caucasus, their descriptions and origins, all in one accessible place.
+                </p>
+                <div class="scroll-indicator">↓</div>
+            </div>
+        </section>
+
+        <!-- ლექსიკონის ნაწილი -->
+        <section id="dictionary" class="dictionary">
+            <div class="section-header">
+                <h2 data-i18n="dict-title">Symbol Dictionary</h2>
+                <div class="controls">
+                  <input type="text" id="search-bar" placeholder="Search symbols...">
+    
+    <!-- გასაფილტრი ღილაკები(წინა ვერსიიდან უცვლელი) -->
+                    <div class="filters">
+                    <button class="filter-btn active" data-category="all" data-i18n="cat-all">All</button>
+                    <button class="filter-btn" data-category="Celestial" data-i18n="cat-celestial">Celestial</button>
+                    <button class="filter-btn" data-category="Nature" data-i18n="cat-nature">Nature</button>
+                    <button class="filter-btn" data-category="Geometric" data-i18n="cat-geometric">Geometric</button>
+                    <button class="filter-btn" data-category="Animalistic" data-i18n="cat-animal">Animalistic</button>
+                    <button class="filter-btn" data-category="Christian" data-i18n="cat-christian">Christian</button>
+                </div>
+
+    <!-- Grid/List ღილაკი(ქართული ვარიანტი ჯერ არაა) -->
+    <button id="view-toggle" class="btn-view-toggle">
+        List View
+    </button>
+</div>
+
+            </div>
+
+            <div id="symbols-grid" class="symbols-grid">
+                <!-- სიმბოლოების ბარათები (ჯავასკრიპტიდან ჩასმული) -->
+            </div>
+        </section>
+
+        <!-- კონტაქტის ნაწილი -->
+        <section id="contact" class="contact">
+            <div class="contact-container">
+                <h2 data-i18n="contact-title">Get in Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <p data-i18n="contact-desc">Interested in Caucasian symbolism? Contact me for research collaborations or high-resolution assets.</p>
+                        <a href="mailto:mishojuruli@gmail.com" class="contact-link">mishojuruli@gmail.com</a>
+                        <a href="tel:+995557639453" class="contact-link">+995 557 639 453</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/nakurtxi.accounti/" target="_blank">Instagram</a>
+                        <a href="#">CV/Portfolio</a>
+                        <a href="#">Archive.org</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- აქ არაფერი მესმის; Modals-->
+<div id="modal-overlay" class="modal-overlay">
+    <div class="modal-content">
+        <button class="close-modal">&times;</button>
+        <div class="modal-body">
+            <div class="modal-images">
+                <!-- Main Symbol Image Wrapper -->
+                <div class="main-img-wrapper">
+                    <label data-i18n="modal-label-rep">Symbol Representation</label>
+                    <img id="modal-img" src="" alt="Symbol Image">
+                </div>
+                
+                <!-- Map Image Wrapper (Added for Pin Logic) -->
+                <div class="map-img-wrapper">
+                    <label><span data-i18n="modal-label-region">Region of Origin</span>: <span id="region-name"></span></label>
+                    <!-- This image is loaded by JS in openModal() -->
+                    <img id="modal-map" src="" alt="Region Map" style="display:none;"> 
+                </div>
+            </div>
+            
+            <div class="modal-text">
+                <h3 id="modal-title"></h3>
+                <!-- Category Tags Container -->
+                <div id="modal-category"></div>
+                <p id="modal-desc"></p>
+            </div>
+
+            <!-- Hidden container for Pins, injected via JS -->
+            <div id="pins-container" class="pins-container"></div>
+        </div>
+    </div>
+</div>
+
+
+    <footer>
+        <p data-i18n="footer-text">no copyright or anything as of this moment</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
