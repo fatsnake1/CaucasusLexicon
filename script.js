@@ -1,5 +1,5 @@
 /**
- * GLOBAL CONSTANTS & VARIABLES პიზდეც ნახვი აქ რამეს თუ გავიგებ ოდესმე
+ * GLOBAL CONSTANTS & VARIABLES
  */
 let currentLang = 'en';
 let symbolsData = [];
@@ -11,7 +11,7 @@ const filterBtns = document.querySelectorAll('.filter-btn');
 const modalOverlay = document.getElementById('modal-overlay');
 const closeModalBtn = document.querySelector('.close-modal');
 const themeToggle = document.getElementById('theme-toggle');
-const langToggle = document.getElementById('lang-toggle');
+const langToggle = document.getElementById('lang-toggle'); // Single selector
 
 // Modal elements
 const modalTitleEl = document.getElementById('modal-title');
@@ -55,7 +55,7 @@ const uiTranslations = {
         "nav-dict": "ლექსიკონი",
         "nav-contact": "კონტაქტი",
         "hero-title": "კავკასიური სიმბოლოების ლექსიკონი",
-        "hero-desc": "ჩვენ მიზანი კავკასიური სიმბოლოებისა და მათი აღწერილობის ერთ მარტივად მისაწვდომ ადგილას მოქცევაა.",
+        "hero-desc": "ჩვენი მიზანი კავკასიური სიმბოლოებისა და მათი აღწერილობის ერთ მარტივად მისაწვდომ ადგილას მოქცევაა.",
         "dict-title": "სიმბოლოების ლექსიკონი",
         "search-placeholder": "ძებნა...",
         "cat-all": "ყველა",
@@ -73,6 +73,30 @@ const uiTranslations = {
         "tag-Geometric": "გეომეტრიული",
         "tag-Animalistic": "ანიმალისტური",
         "tag-Christian": "ქრისტიანული"
+    },
+    de: {
+        "nav-home": "Startseite",
+        "nav-dict": "Wörterbuch",
+        "nav-contact": "Kontakt",
+        "hero-title": "Lexikon der kaukasischen Symbolik",
+        "hero-desc": "Diese Website fasst die uralten Symbole des Kaukasus, ihre Beschreibungen und Herkunft zusammen.",
+        "dict-title": "Symbol-Wörterbuch",
+        "search-placeholder": "Symbole suchen...",
+        "cat-all": "Alle",
+        "cat-celestial": "Astrolisch",
+        "cat-nature": "Floristisch",
+        "cat-geometric": "Geometrisch",
+        "cat-animal": "Animalistisch",
+        "cat-christian": "Christlich",
+        "contact-title": "Kontakt aufnehmen",
+        "contact-desc": "Interesse an der kaukasischen Symbolik? Bitte kontaktieren Sie mich für Forschungsarbeiten.",
+        "modal-label-rep": "Symbol-Darstellung",
+        "modal-label-region": "Herkunftsregion",
+        "tag-Celestial": "Astrolisch",
+        "tag-Nature": "Floristisch",
+        "tag-Geometric": "Geometrisch",
+        "tag-Animalistic": "Animalistisch",
+        "tag-Christian": "Christlich"
     }
 };
 
@@ -83,7 +107,6 @@ async function loadSymbolData() {
     const jsonPath = 'data.json';
     
     try {
-        // Try to fetch the JSON file
         const response = await fetch(jsonPath); 
         if (!response.ok) {
             throw new Error(`Failed to fetch symbols: ${response.statusText}`);
@@ -93,39 +116,43 @@ async function loadSymbolData() {
         console.log("Symbols loaded successfully.");
         
     } catch (error) {
-        // ლოკალურად გაშვების შემთხვევაში თუ json არ ჩაიტვირთება სიმბოლოების მაგალითები (არ ჩაიტვირთება სხვა შემთხვევაში, !!!მომავალში წაშლა არ დაგავიწყდეს!!!)
         console.warn("Using fallback data for local testing");
+        // Fixed: Added DE fields to ALL fallback objects
         symbolsData = [
             {
                 "id": 1,
-                "name": { "en": "Borjgali", "ka": "ბორჯღალა" },
+                "name": { "en": "Borjgali", "ka": "ბორჯღალა", "de": "Borjgali" },
                 "category": ["Celestial", "Geometric"],
                 "preview": { 
                     "en": "The astral symbol of the Sun, now transformed into a traditional Caucasian ornament", 
-                    "ka": "მზის ასტრალური სიმბოლო, ტრადიციულ ქართულ-კავკასიურ ორნამენტად გარდასახული" 
+                    "ka": "მზის ასტრალური სიმბოლო, ტრადიციულ ქართულ-კავკასიურ ორნამენტად გარდასახული",
+                    "de": "Das astrale Symbol der Sonne, nun zu einem traditionellen kaukasischen Ornament verwandelt"
                 },
                 "description": { 
                     "en": "The astral symbol of the Sun, now transformed to a traditional Caucasian ornament", 
-                    "ka": "მზის ასტრალური სიმბოლო, ტრადიციულ ქართულ-კავკასიურ ორნამენტად გარდასახული" 
+                    "ka": "მზის ასტრალური სიმბოლო, ტრადიციულ ქართულ-კავკასიურ ორნამენტად გარდასახული",
+                    "de": "Das astrale Symbol der Sonne, nun zu einem traditionellen kaukasischen Ornament verwandelt" 
                 },
-                "region": { "en": "Pan-Caucasian", "ka": "პანკავკასიური" },
+                "region": { "en": "Pan-Caucasian", "ka": "პანკავკასიური", "de": "Pan-Kaukasisch" },
                 "image": "images/photo1.jpg",
                 "map": "assets/CaucasusMap.svg", 
                 "pinCoords": { x: 45, y: 35 } 
             },
             {
                 "id": 2,
-                "name": { "en": "Grapevine Motif", "ka": "ვაზის ორნამენტი" },
+                "name": { "en": "Grapevine Motif", "ka": "ვაზის ორნამენტი", "de": "Weinrebenmotiv" },
                 "category": ["Nature", "Christian"],
                 "preview": { 
                     "en": "A sacred object of worship, rooted deep in the history of Georgia", 
-                    "ka": "უძველესი ქართული, საკრალური თაყვანისცემის ობიექტი" 
+                    "ka": "უძველესი ქართული, საკრალური თაყვანისცემის ობიექტი",
+                    "de": "Ein heiliges Kultobjekt, tief verwurzelt in der Geschichte Georgiens."
                 },
                 "description": { 
                     "en": "The grapevine is deeply sacred in Georgia, the birthplace of wine. The stylized grapevine motif once belonging to the cult of the grapevine transphormed into a christan symbol, representing the blood of christ and the eucharist.", 
-                    "ka": "ღვინის სამშობლოში ვაზის სიმბოლო დღემდე უძლიერესია. ოდესღაც ვაზის კულტის აღმნიშვნელი ნიშანი, ქრისტეს სისხლისა და ზიარების სიმბოლოდ იქცა." 
+                    "ka": "ღვინის სამშობლოში ვაზის სიმბოლო დღემდე უძლიერესია. ოდესღაც ვაზის კულტის აღმნიშვნელი ნიშანი, ქრისტეს სისხლისა და ზიარების სიმბოლოდ იქცა.",
+                    "de": "In Georgien, der Wiege des Weins, genießt die Weinrebe hohes Ansehen. Das stilisierte Rebenmotiv, einst Teil des Weinkults, wandelte sich zu einem christlichen Symbol, das das Blut Christi und die Eucharistie repräsentiert."
                 },
-                "region": { "en": "Kakheti", "ka": "კახეთი" },
+                "region": { "en": "Kakheti", "ka": "კახეთი", "de": "Kachetien" },
                 "image": "images/photo2.jpg",
                 "map": "assets/CaucasusMap.svg",
                 "pinCoords": { x: 40, y: 55 } 
@@ -146,7 +173,7 @@ function updateLanguageUI() {
     });
     
     searchInput.placeholder = uiTranslations[currentLang]['search-placeholder'];
-    langToggle.textContent = currentLang === 'en' ? 'KA' : 'EN';
+    // Language selector value will be handled by user, not displayed text
 }
 
 function renderSymbols(data) {
@@ -158,15 +185,22 @@ function renderSymbols(data) {
         const card = document.createElement('div');
         card.className = 'symbol-card';
         
+        // Determine which language names to use based on currentLang
+        let nameValue;
+        if (currentLang === 'en' && symbol.name.en) nameValue = symbol.name.en;
+        else if (currentLang === 'ka' && symbol.name.ka) nameValue = symbol.name.ka;
+        else if (currentLang === 'de' && symbol.name.de) nameValue = symbol.name.de;
+        else nameValue = symbol.name.en || symbol.name.ka || symbol.name.de || '';
+
         const tagsHTML = symbol.category.map(cat => {
             const translatedTag = uiTranslations[currentLang][`tag-${cat}`] || cat;
             return `<span class="tag">${translatedTag}</span>`;
         }).join('');
 
         card.innerHTML = `
-            <img class="card-img" src="${symbol.image}" alt="${symbol.name[currentLang]}" loading="lazy">
+            <img class="card-img" src="${symbol.image}" alt="${nameValue}" loading="lazy">
             <div class="tag-container">${tagsHTML}</div>
-            <h3>${symbol.name[currentLang]}</h3>
+            <h3>${nameValue}</h3>
             <p>${symbol.preview[currentLang]}</p>
         `;
         
@@ -249,15 +283,20 @@ function closeModal() {
     }
 }
 
+// Search and Category Filter - Updated for all languages
 function filterData() {
     const searchTerm = searchInput.value.toLowerCase();
     const activeCategory = document.querySelector('.filter-btn.active')?.dataset.category || 'all';
     
     const filtered = symbolsData.filter(item => {
-        const nameEn = item.name.en.toLowerCase();
-        const nameKa = item.name.ka.toLowerCase();
-        const matchesSearch = nameEn.includes(searchTerm) || nameKa.includes(searchTerm);
+        // Get current language name
+        let nameValue;
+        if (currentLang === 'en' && item.name.en) nameValue = item.name.en.toLowerCase();
+        else if (currentLang === 'ka' && item.name.ka) nameValue = item.name.ka.toLowerCase();
+        else if (currentLang === 'de' && item.name.de) nameValue = item.name.de.toLowerCase();
+        else nameValue = item.name.en || item.name.ka || '';
         
+        const matchesSearch = nameValue.includes(searchTerm);
         const matchesCategory = activeCategory === 'all' || item.category.includes(activeCategory);
         
         return matchesSearch && matchesCategory;
@@ -278,9 +317,9 @@ if(viewToggleBtn) {
     });
 }
 
-// Language Toggle
-langToggle.addEventListener('click', () => {
-    currentLang = currentLang === 'en' ? 'ka' : 'en';
+// Language Toggle - Now uses change event for select element
+langToggle.addEventListener('change', (e) => {
+    currentLang = e.target.value;
     updateLanguageUI();
     filterData(); 
 });
@@ -332,7 +371,7 @@ function setupScrollListener() {
 
 // Initialize app
 document.addEventListener('DOMContentLoaded', async () => {
-    await loadSymbolData(); // Wait for data to fetch first
+    await loadSymbolData(); 
     updateLanguageUI();
     renderSymbols(symbolsData);
     setupScrollListener();

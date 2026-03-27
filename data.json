@@ -1,54 +1,53 @@
 [
   {
-    "id": 1,
-    "name": {
-      "en": "Borjgali",
-      "ka": "ბორჯღალა"
-    },
-    "category": [
-      "Celestial",
-      "Geometric"
-    ],
-    "preview": {
-      "en": "The astral symbol of the Sun, now transformed into a traditional Caucasian ornament",
-      "ka": "მზის ასტრალური სიმბოლო, ტრადიციულ ქართულ-კავკასიურ ორნამენტად გარდასახული"
-    },
-    "description": {
-      "en": "The astral symbol of the Sun, now transformed to a traditional Caucasian ornament",
-      "ka": "მზის ასტრალური სიმბოლო, ტრადიციულ ქართულ-კავკასიურ ორნამენტად გარდასახული"
-    },
-    "region": {
-      "en": "Pan-Caucasian",
-      "ka": "პანკავკასიური"
-    },
-    "image": "images/photo1.jpg",
-    "map": "assets/CaucasusMap.svg",
-    "pinCoords": {
-      "x": 45,
-      "y": 35
-    }
+  "id": 1,
+  "name": {
+    "en": "Borjgali",
+    "ka": "ბორჯღალა",
+    "de": "Borjgali"
+  },
+  "category": ["Celestial", "Geometric"],
+  "preview": {
+    "en": "The astral symbol of the Sun, now transformed into a traditional Caucasian ornament",
+    "ka": "მზის ასტრალური სიმბოლო, ტრადიციულ ქართულ-კავკასიურ ორნამენტად გარდასახული",
+    "de": "Der astrale Symbol des Sonnens, nun zu einem traditionellen kaukasischen Ornament verwandelt"
+  },
+  "description": {
+    "en": "The astral symbol of the Sun, now transformed to a traditional Caucasian ornament",
+    "ka": "მზის ასტრალური სიმბოლო, ტრადიციულ ქართულ-კავკასიურ ორნამენტად გარდასახული",
+    "de": "Das astrale Symbol der Sonne, nun zu einem traditionellen kaukasischen Ornament verwandelt"
+  },
+  "region": {
+    "en": "Pan-Caucasian",
+    "ka": "პანკავკასიური",
+    "de": "Pan-Kaukasisch"
+  },
+  "image": "images/photo1.jpg",
+  "map": "assets/CaucasusMap.svg",
+  "pinCoords": { "x": 45, "y": 35 }
   },
   {
     "id": 2,
     "name": {
       "en": "Grapevine Motif",
-      "ka": "ვაზის ორნამენტი"
+      "ka": "ვაზის ორნამენტი",
+      "de": "Weinrebenmotiv"
     },
-    "category": [
-      "Nature",
-      "Christian"
-    ],
+    "category": ["Nature","Christian"],
     "preview": {
       "en": "A sacred object of worship, rooted deep in the history of Georgia",
-      "ka": "უძველესი ქართული, საკრალური თაყვანისცემის ობიექტი"
+      "ka": "უძველესი ქართული, საკრალური თაყვანისცემის ობიექტი",
+      "de": "Ein heiliges Kultobjekt, tief verwurzelt in der Geschichte Georgiens."
     },
     "description": {
       "en": "The grapevine is deeply sacred in Georgia, the birthplace of wine. The stylized grapevine motif once belonging to the cult of the grapevine transphormed into a christan symbol, representing the blood of christ and the eucharist.",
-      "ka": "ღვინის სამშობლოში ვაზის სიმბოლო დღემდე უძლიერესია. ოდესღაც ვაზის კულტის აღმნიშვნელი ნიშანი, ქრისტეს სისხლისა და ზიარების სიმბოლოდ იქცა."
+      "ka": "ღვინის სამშობლოში ვაზის სიმბოლო დღემდე უძლიერესია. ოდესღაც ვაზის კულტის აღმნიშვნელი ნიშანი, ქრისტეს სისხლისა და ზიარების სიმბოლოდ იქცა.",
+      "de": "In Georgien, der Wiege des Weins, genießt die Weinrebe hohes Ansehen. Das stilisierte Rebenmotiv, einst Teil des Weinkults, wandelte sich zu einem christlichen Symbol, das das Blut Christi und die Eucharistie repräsentiert."
     },
     "region": {
       "en": "Kakheti",
-      "ka": "კახეთი"
+      "ka": "კახეთი",
+      "de": "Kachetien"
     },
     "image": "images/photo2.jpg",
     "map": "assets/CaucasusMap.svg",
@@ -61,23 +60,24 @@
     "id": 3,
     "name": {
       "en": "Stag and Deer",
-      "ka": "ირემი"
+      "ka": "ირემი",
+      "de": "Hirsche und Rehe"
     },
-    "category": [
-      "Animalistic",
-      "Christian"  
-    ],
+    "category": ["Animalistic","Christian"],
     "preview": {
       "en": "A divine animal, thought to connect the realms with it's horns",
-      "ka": "მოიაზრებოდა, რომ ეს საკრალური ცხოველი სკნელებს თავისი რქებით აკავშირებდა"
+      "ka": "მოიაზრებოდა, რომ ეს საკრალური ცხოველი სკნელებს თავისი რქებით აკავშირებდა",
+      "de": "Ein göttliches Tier, dessen Hörner die Welten miteinander verbinden sollen."
     },
     "description": {
-      "en": "Found in the mountainous Pshavi region, these intricate geometric crosses combine Christian iconography with ancient pagan solar symbols.",
-      "ka": "აღმოჩენილია ფშავის მაღალმთიანეთში. ეს გეომეტრიული ჯვრები აერთიანებს ქრისტიანულ იკონოგრაფიასა და უძველეს წარმართულ მზის სიმბოლოებს."
+      "en": "Deer",
+      "ka": "ირემი",
+      "de": "Hirsche"
     },
     "region": {
       "en": "N/A",
-      "ka": "N/A"
+      "ka": "N/A",
+      "de": "N/A"
     },
     "image": "images/photo3.jpg",
     "map": "assets/CaucasusMap.svg",
