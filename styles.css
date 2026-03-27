@@ -479,3 +479,16 @@ footer {
 .pin-marker-wrapper > svg path {
     fill: #000; /* Change from red (#ff0000) to black (#000) remove incase I want the pin to be black */
 }
+
+.citations-container {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc; /* Or your theme's accent color */
+    font-size: 0.85rem;         /* Smaller than description text */
+    color: var(--text-secondary, #aaa); /* Dark grey for citations */
+    white-space: pre-wrap;       /* Preserves line breaks in JSON strings */
+}
+
+.citation-block {
+    line-height: 1.4;
+}

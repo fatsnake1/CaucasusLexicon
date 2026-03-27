@@ -22,6 +22,11 @@
     "ka": "პანკავკასიური",
     "de": "Pan-Kaukasisch"
   },
+  "citations": {         
+      "en": "[1]",
+      "ka": "[1]",
+      "de": "[1]"
+  },
   "image": "images/photo1.jpg",
   "map": "assets/CaucasusMap.svg",
   "pinCoords": { "x": 45, "y": 35 }
@@ -48,6 +53,11 @@
       "en": "Kakheti",
       "ka": "კახეთი",
       "de": "Kachetien"
+    },
+    "citations": {         
+      "en": "[1]",
+      "ka": "[1]",
+      "de": "[1]"
     },
     "image": "images/photo2.jpg",
     "map": "assets/CaucasusMap.svg",
@@ -78,6 +88,11 @@
       "en": "N/A",
       "ka": "N/A",
       "de": "N/A"
+    },
+    "citations": {         
+      "en": "[1]",
+      "ka": "[1]",
+      "de": "[1]"
     },
     "image": "images/photo3.jpg",
     "map": "assets/CaucasusMap.svg",

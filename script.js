@@ -100,7 +100,7 @@ const uiTranslations = {
     }
 };
 
-/**
+/*
  * DATA FETCHING - LOCAL FILE FRIENDLY ALTERNATIVE INCLUDED
  */
 async function loadSymbolData() {
@@ -121,41 +121,14 @@ async function loadSymbolData() {
         symbolsData = [
             {
                 "id": 1,
-                "name": { "en": "Borjgali", "ka": "ბორჯღალა", "de": "Borjgali" },
+                "name": { "en": "Symbols Not Loaded", "ka": "Symbols Not Loaded", "de": "Symbols Not Loaded" },
                 "category": ["Celestial", "Geometric"],
                 "preview": { 
-                    "en": "The astral symbol of the Sun, now transformed into a traditional Caucasian ornament", 
-                    "ka": "მზის ასტრალური სიმბოლო, ტრადიციულ ქართულ-კავკასიურ ორნამენტად გარდასახული",
-                    "de": "Das astrale Symbol der Sonne, nun zu einem traditionellen kaukasischen Ornament verwandelt"
+                    "en": "Symbols Not Loaded", 
+                    "ka": "Symbols Not Loaded",
+                    "de": "Symbols Not Loaded"
                 },
-                "description": { 
-                    "en": "The astral symbol of the Sun, now transformed to a traditional Caucasian ornament", 
-                    "ka": "მზის ასტრალური სიმბოლო, ტრადიციულ ქართულ-კავკასიურ ორნამენტად გარდასახული",
-                    "de": "Das astrale Symbol der Sonne, nun zu einem traditionellen kaukasischen Ornament verwandelt" 
-                },
-                "region": { "en": "Pan-Caucasian", "ka": "პანკავკასიური", "de": "Pan-Kaukasisch" },
-                "image": "images/photo1.jpg",
-                "map": "assets/CaucasusMap.svg", 
-                "pinCoords": { x: 45, y: 35 } 
-            },
-            {
-                "id": 2,
-                "name": { "en": "Grapevine Motif", "ka": "ვაზის ორნამენტი", "de": "Weinrebenmotiv" },
-                "category": ["Nature", "Christian"],
-                "preview": { 
-                    "en": "A sacred object of worship, rooted deep in the history of Georgia", 
-                    "ka": "უძველესი ქართული, საკრალური თაყვანისცემის ობიექტი",
-                    "de": "Ein heiliges Kultobjekt, tief verwurzelt in der Geschichte Georgiens."
-                },
-                "description": { 
-                    "en": "The grapevine is deeply sacred in Georgia, the birthplace of wine. The stylized grapevine motif once belonging to the cult of the grapevine transphormed into a christan symbol, representing the blood of christ and the eucharist.", 
-                    "ka": "ღვინის სამშობლოში ვაზის სიმბოლო დღემდე უძლიერესია. ოდესღაც ვაზის კულტის აღმნიშვნელი ნიშანი, ქრისტეს სისხლისა და ზიარების სიმბოლოდ იქცა.",
-                    "de": "In Georgien, der Wiege des Weins, genießt die Weinrebe hohes Ansehen. Das stilisierte Rebenmotiv, einst Teil des Weinkults, wandelte sich zu einem christlichen Symbol, das das Blut Christi und die Eucharistie repräsentiert."
-                },
-                "region": { "en": "Kakheti", "ka": "კახეთი", "de": "Kachetien" },
-                "image": "images/photo2.jpg",
-                "map": "assets/CaucasusMap.svg",
-                "pinCoords": { x: 40, y: 55 } 
+                
             }
         ];
     }
@@ -240,7 +213,34 @@ function openModal(symbol) {
         if(modalImgEl) modalImgEl.style.display = 'none';
     }
 
-    if (symbol.pinCoords && symbol.region[currentLang] !== "N/A") {
+    if (symbol.pinCoords && symbol.region[currentLang] !== "N/A") 
+            // Handle Citations Logic
+    const citationsContainer = document.getElementById('modal-citations');
+    
+    if (citationsContainer && symbol.citations) {
+        // Get citation text for current language, fallback to 'en' if not found
+        let citationText = '';
+        if (currentLang === 'en' && symbol.citations.en) {
+            citationText = symbol.citations.en;
+        } else if (currentLang === 'ka' && symbol.citations.ka) {
+            citationText = symbol.citations.ka;
+        } else if (currentLang === 'de' && symbol.citations.de) {
+            citationText = symbol.citations.de;
+        }
+
+        // Only show if text exists to prevent empty elements
+        if (citationText.trim() !== '') {
+            citationsContainer.innerHTML = `<div class="citation-block">${citationText}</div>`;
+        } else {
+            citationsContainer.style.display = 'none';
+        }
+    } else if (citationsContainer) {
+        // Default to hiding if no data or empty object for now, or add default text
+        citationsContainer.style.display = 'none'; 
+    }
+
+
+        {
         if(pinsContainer) pinsContainer.innerHTML = '';
 
         const pinHTML = `
