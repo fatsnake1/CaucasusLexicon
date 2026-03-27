@@ -214,32 +214,6 @@ function openModal(symbol) {
     }
 
     if (symbol.pinCoords && symbol.region[currentLang] !== "N/A") 
-            // Handle Citations Logic
-    const citationsContainer = document.getElementById('modal-citations');
-    
-    if (citationsContainer && symbol.citations) {
-        // Get citation text for current language, fallback to 'en' if not found
-        let citationText = '';
-        if (currentLang === 'en' && symbol.citations.en) {
-            citationText = symbol.citations.en;
-        } else if (currentLang === 'ka' && symbol.citations.ka) {
-            citationText = symbol.citations.ka;
-        } else if (currentLang === 'de' && symbol.citations.de) {
-            citationText = symbol.citations.de;
-        }
-
-        // Only show if text exists to prevent empty elements
-        if (citationText.trim() !== '') {
-            citationsContainer.innerHTML = `<div class="citation-block">${citationText}</div>`;
-        } else {
-            citationsContainer.style.display = 'none';
-        }
-    } else if (citationsContainer) {
-        // Default to hiding if no data or empty object for now, or add default text
-        citationsContainer.style.display = 'none'; 
-    }
-
-
         {
         if(pinsContainer) pinsContainer.innerHTML = '';
 
@@ -269,6 +243,33 @@ function openModal(symbol) {
         }
     }
     
+    // Handle Citations Logic
+    const citationsContainer = document.getElementById('modal-citations');
+    
+    if (citationsContainer && symbol.citations) {
+        // Get citation text for current language, fallback to 'en' if not found
+        let citationText = '';
+        if (currentLang === 'en' && symbol.citations.en) {
+            citationText = symbol.citations.en;
+        } else if (currentLang === 'ka' && symbol.citations.ka) {
+            citationText = symbol.citations.ka;
+        } else if (currentLang === 'de' && symbol.citations.de) {
+            citationText = symbol.citations.de;
+        }
+
+        // Only show if text exists to prevent empty elements
+        if (citationText.trim() !== '') {
+            citationsContainer.innerHTML = `<div class="citation-block">${citationText}</div>`;
+        } else {
+            citationsContainer.style.display = 'none';
+        }
+    } else if (citationsContainer) {
+        // Default to hiding if no data or empty object for now, or add default text
+        citationsContainer.style.display = 'none'; 
+    }
+
+
+
     if (modalOverlay) {
         modalOverlay.style.display = 'flex';
         document.body.style.overflow = 'hidden';
