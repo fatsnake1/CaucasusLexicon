@@ -13,20 +13,19 @@
     "de": "Der astrale Symbol des Sonnens, nun zu einem traditionellen kaukasischen Ornament verwandelt"
   },
   "description": {
-    "en": "The astral symbol of the Sun, now transformed to a traditional Caucasian ornament",
+    "en": "The symbol of Borjghali is deeply entwined with proto-georgian roots. The oldest examples we have of this symbol comes form the Kura-Araxes culture (Mid-4th to Early-3rd Millennium BCE). Etymologically the word borjghali connects to a Georgian word that means 'something with branches', deers and stags with big and spiraling horns would often be referred to as a 'horn-borjghali'. The visual representation of this symbol is quite simple. Many Swastika crosses spiral along a single intersecting point. The most common variant of the Borjghali is the 7-winged one but there are variants all the way from 8-12 wings. Semantically this symbol represents the sun. The light of this world, that which moves everything. The borjghali used to be present everywhere: on walls, tools, axes, pottery, pillars, etc. We can extrapolate from this that back then this symbol had a protective quality, probably believed to ward off evil or suffering. Today this symbol has become a simple ornament, it is portrayed on the Georgian passport and currency.",
     "ka": "ბორჯღალის სიმბოლო პროტოქართულ საფუძვლებს უკავშირდება. კავკასიის ტერიტორიაზე სსვასტიკის ყველაზე ადრეული ნიმუშები მტკვარ-არაქსის კულტურაში ჩნდება (ძვ.წ IV ათასწლეულის მეორე ნახევარი - ძვ.წ III ათასწლეულის პირველი ნახევარი). სიტყვა 'ბორჯღალის' ეტიმოლოგია მრავალგვარად შეგვიძლია განვიხილოთ. თვითონ სიტყვა მრავალტოტიანობას გამოხატავს, ქორბუდა ირემზე იტყვიან 'რქაბორჯღალიანიაო'. ვიზუალურად ბორჯღალი გადაკვეთის წერტილის გარშეომ დატრიალუებულ სვასტიკურ ჯვარს წარმოადგენს. ყველაზე გავრცელებული ბორჯღალის 7-ქიმიანი ვარიანტია, თუმცა 8-12 ქიმიანი ვარიანტებიც არსებობენ. სემანტიკურად სიმბოლო მზის ასტრალური ნიშანია. სამყაროს მნათობი და მამოძრავებელი. ეს სიმბოლო გხვდებოდა ყველგან: ცულებზე, იარაღებზე, ხელსაწყოებზე, ავეჯზე, კედლებზე და ა.შ. სავარაუდოდ დამცველ მნიშვნელობასაც ატარებდა. დღესდღეობით ბორჯღალი ყოველი ქართველისთვის ცნობილი ორნამენტია. ბორჯღალს გამოვხატავთ, როგორც პასპორტზე, ისე 20-თეთრიანზე.",
-    "de": "Das astrale Symbol der Sonne, nun zu einem traditionellen kaukasischen Ornament verwandelt"
+    "de": "Das Borjghali-Symbol ist tief in den protogeorgischen Wurzeln verwurzelt. Die ältesten bekannten Belege stammen aus der Kura-Araxes-Kultur (Mitte des 4. bis Anfang des 3. Jahrtausends v. Chr.). Etymologisch leitet sich das Wort „Borjghali“ von einem georgischen Wort ab, das „etwas mit Ästen“ bedeutet. Hirsche und Rehe mit großen, spiralförmigen Geweihen wurden oft als „Horn-Borjghali“ bezeichnet. Die visuelle Darstellung dieses Symbols ist recht einfach. Viele Hakenkreuze winden sich spiralförmig um einen einzigen Schnittpunkt. Die häufigste Variante des Borjghali ist die siebenflügelige, es gibt aber auch Varianten mit acht bis zwölf Flügeln. Semantisch repräsentiert dieses Symbol die Sonne – das Licht der Welt, das alles bewegt. Das Borjghali war einst allgegenwärtig: auf Wänden, Werkzeugen, Äxten, Töpferwaren, Säulen usw. Daraus lässt sich schließen, dass dieses Symbol damals eine Schutzfunktion besaß und vermutlich vor Bösem und Leid bewahrte. Heute ist es zu einem schlichten Schmuckstück geworden und ziert den georgischen Pass und die Banknoten."
   },
   "region": {
     "en": "Kura-Araxes Culture",
-    "ka": "მტკვარ-არაქსული კულტურიდან",
-    "de": "Pan-Kaukasisch"
+    "ka": "მტკვარ-არაქსული კულტურა",
+    "de": "Kura-Araxes Kultur"
   },
   "citations": {         
-      "en": "[1]",
-      "ka": 
-      "[1]ზურაბ კიკნაძე: ქართული მითოლოგიის ენციკლოპედია<br>[2]Alexander Mikaberidze: Historical Dictionary of Georgia",
-      "de": "[1]"
+      "en": "[1]ზურაბ კიკნაძე: ქართული მითოლოგიის ენციკლოპედია<br>[2]Alexander Mikaberidze: Historical Dictionary of Georgia",
+      "ka": "[1]ზურაბ კიკნაძე: ქართული მითოლოგიის ენციკლოპედია<br>[2]Alexander Mikaberidze: Historical Dictionary of Georgia",
+      "de": "[1]ზურაბ კიკნაძე: ქართული მითოლოგიის ენციკლოპედია<br>[2]Alexander Mikaberidze: Historical Dictionary of Georgia"
   },
   "image": "images/photo1.jpg",
   "map": "assets/Kura-Araxes.png",
