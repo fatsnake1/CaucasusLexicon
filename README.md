@@ -1,6 +1,6 @@
 # A digital lexicon dedicated to the symbols, motifs, and visual language of the Caucasus region. 
 
-This project explores traditional and historical symbolism across different cultures of the Caucasus, documenting their meanings, origins, and cultural context. The goal is to preserve and present this visual heritage in an accessible, easy-to-reach place.
+This project explores traditional and historical symbolism across different cultures of the Caucasus, documenting their meanings, origins, and cultural context. The goal is to preserve and present this visual heritage in an accessible, easy-to-reach place. www.caucasuslexicon.cv
 
 **Features:**
 - Organized catalog of symbols and motifs sorted by tags
