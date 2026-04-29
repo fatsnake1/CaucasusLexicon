@@ -23,9 +23,9 @@
     "de": "Kura-Araxes Kultur"
   },
   "citations": {         
-      "en": "[1]ზურაბ კიკნაძე: ქართული მითოლოგიის ენციკლოპედია<br>[2]Alexander Mikaberidze: Historical Dictionary of Georgia",
-      "ka": "[1]ზურაბ კიკნაძე: ქართული მითოლოგიის ენციკლოპედია<br>[2]Alexander Mikaberidze: Historical Dictionary of Georgia",
-      "de": "[1]ზურაბ კიკნაძე: ქართული მითოლოგიის ენციკლოპედია<br>[2]Alexander Mikaberidze: Historical Dictionary of Georgia"
+      "en": "[1] ზურაბ კიკნაძე: ქართული მითოლოგიის ენციკლოპედია<br>[2] Alexander Mikaberidze: Historical Dictionary of Georgia",
+      "ka": "[1] ზურაბ კიკნაძე: ქართული მითოლოგიის ენციკლოპედია<br>[2] Alexander Mikaberidze: Historical Dictionary of Georgia",
+      "de": "[1] ზურაბ კიკნაძე: ქართული მითოლოგიის ენციკლოპედია<br>[2] Alexander Mikaberidze: Historical Dictionary of Georgia"
   },
   "image": "images/photo1.jpg",
   "map": "assets/Kura-Araxes.png",
@@ -34,32 +34,32 @@
   {
     "id": 2,
     "name": {
-      "en": "Grapevine Motif",
-      "ka": "ვაზის ორნამენტი",
-      "de": "Weinrebenmotiv"
+      "en": "The Bull",
+      "ka": "ხარი",
+      "de": "Der Stier"
     },
-    "category": ["Nature","Christian"],
+    "category": ["Animalistic","Christian"],
     "preview": {
-      "en": "A sacred object of worship, rooted deep in the history of Georgia",
-      "ka": "უძველესი ქართული, საკრალური თაყვანისცემის ობიექტი",
-      "de": "Ein heiliges Kultobjekt, tief verwurzelt in der Geschichte Georgiens."
+      "en": "An animal representing servitude to god, strength of man and sacrifice",
+      "ka": "ცხოველი რომელიც ღვთის მსახურებას, ძალასა და მსხვერპლშეწირვას განასახიერებს",
+      "de": "Ein Tier, das die Unterwerfung unter Gott, die Stärke des Menschen und das Opfer symbolisiert"
     },
     "description": {
-      "en": "The grapevine is deeply sacred in Georgia, the birthplace of wine. The stylized grapevine motif once belonging to the cult of the grapevine transphormed into a christan symbol, representing the blood of christ and the eucharist.",
-      "ka": "ღვინის სამშობლოში ვაზის სიმბოლო დღემდე უძლიერესია. ოდესღაც ვაზის კულტის აღმნიშვნელი ნიშანი, ქრისტეს სისხლისა და ზიარების სიმბოლოდ იქცა.",
-      "de": "In Georgien, der Wiege des Weins, genießt die Weinrebe hohes Ansehen. Das stilisierte Rebenmotiv, einst Teil des Weinkults, wandelte sich zu einem christlichen Symbol, das das Blut Christi und die Eucharistie repräsentiert."
+      "en": "N/A",
+      "ka": "N/A",
+      "de": "N/A"
     },
     "region": {
-      "en": "Kakheti",
-      "ka": "კახეთი",
-      "de": "Kachetien"
+      "en": "N/A",
+      "ka": "N/A",
+      "de": "N/A"
     },
     "citations": {         
       "en": "[1]",
       "ka": "[1]",
       "de": "[1]"
     },
-    "image": "images/photo2.jpg",
+    "image": "images/photo2.png",
     "map": "assets/CaucasusMap.svg",
     "pinCoords": {
       "x": 40,
@@ -80,8 +80,8 @@
       "de": "Ein göttliches Tier, dessen Hörner die Welten miteinander verbinden sollen."
     },
     "description": {
-      "en": "Traces of the deer totem can be found in the Caucasus as early as the Eneolithic era, on the cliff carvings of Trialeti (Small Khrami). The ancient people of the Georgia-Caucasia believed that the deer connected the heavens(upper realm) to earth(middle earth). The symbolic role of the deer does not end here; in ancient depictions of hunting scenes, the deer revealed all that was sacred and divine to man. The coming of Christianity translated and combined these deer related hunting myths into the legend of St. Eustatius. While hunting deer, christ appeared to the Roman general Placidus. A nimbus rose above the deer's head and Placidus was baptized as St. Eustatius. In Christianity, the role of the deer became that of an animal that connects man to God.",
-      "ka": "ირმის კულტის კვალი კვალი კავკასიაში ენეოლითშივე გხვდება, თრიალეთის  (პატარა ხრამის) კლდის ნაკაწრებზე. ძველი ქართულ-კავკასიური ხალხების წარმოდგენებში ირემი ზესკნელსა და ქვესკნელს რქებით აკავშირებდა. არმის სიმბოლური დანიშნულება აქ არ ჩერდება, უძველეს ნადირობის სცენებში ირემი ჭეშმარიტების, მიღმიერი ინფორმაციის გამჭვრეტი ცხოველია. ქრისტიანობის მოდგმამ ნადირობის მითოსი წმ. ევსტატეს ლეგენდად გადათარგმნა. ირმებზე ნადირობისას, რომაელ გენერალ პლაციდუსს მაცხოვარი გამოეცხადა. ირმის თავის ზემოთ შარავანდი ამაღლდა და პლაციდუსი წმ. ევსტატედ მოინათლა. ქრისტიანობაში ირმის როლი ღვთის მაკავშირებელ ცხოველად იქცა.",
+      "en": "Traces of the deer totem can be found in the Caucasus as early as the Eneolithic era, on the cliff carvings of Trialeti (Small Khrami). The ancient people of Georgia-Caucasia believed that the deer connected the heavens(upper realm) to earth(middle earth). The symbolic role of the deer does not end here; in ancient depictions of hunting scenes, the deer revealed all that was sacred and divine to man. The coming of Christianity translated and combined these deer related hunting myths into the legend of St. Eustatius. While hunting deer, christ appeared to the Roman general Placidus. A nimbus rose above the deer's head and Placidus was baptized as St. Eustatius. In Christianity, the role of the deer became that of an animal that connects man to God.",
+      "ka": "ირმის კულტის კვალი კვალი კავკასიაში ენეოლითშივე გხვდება, თრიალეთის  (პატარა ხრამის) კლდის ნაკაწრებზე. ძველი ქართულ-კავკასიური ხალხების წარმოდგენებში ირემი ზესკნელსა და ქვესკნელს რქებით აკავშირებდა. ირმის სიმბოლური დანიშნულება აქ არ ჩერდება, უძველეს ნადირობის სცენებში ირემი ჭეშმარიტების, მიღმიერი ინფორმაციის გამჭვრეტი ცხოველია. ქრისტიანობის მოდგმამ ნადირობის მითოსი წმ. ევსტატეს ლეგენდად გადათარგმნა. ირმებზე ნადირობისას, რომაელ გენერალ პლაციდუსს მაცხოვარი გამოეცხადა. ირმის თავის ზემოთ შარავანდი ამაღლდა და პლაციდუსი წმ. ევსტატედ მოინათლა. ქრისტიანობაში ირმის როლი ღვთის მაკავშირებელ ცხოველად იქცა.",
       "de": "Spuren des Hirsch-Totems finden sich im Kaukasus bereits in der Äneolithikumzeit, etwa in den Felszeichnungen von Trialeti (Klein-Chrami). Die alten Bewohner Georgiens und des Kaukasus glaubten, der Hirsch verbinde Himmel und Erde. Doch die symbolische Bedeutung des Hirsches reicht noch weiter: In alten Darstellungen von Jagdszenen offenbarte er dem Menschen alles Heilige und Göttliche. Mit dem Christentum wurden diese hirschbezogenen Jagdmythen in die Legende des Heiligen Eustatius übertragen und miteinander verbunden. Während der Hirschjagd erschien Christus dem römischen Feldherrn Placidus. Ein Nimbus erhob sich über dem Kopf des Hirsches, und Placidus wurde als Heiliger Eustatius getauft. Im Christentum wurde der Hirsch zum Symbol für die Verbindung zwischen Mensch und Gott."
     },
     "region": {
@@ -90,9 +90,9 @@
       "de": "Trialeti (Kleines Chrami)"
     },
     "citations": {         
-      "en": "[1]",
-      "ka": "[1]",
-      "de": "[1]"
+      "en": "[1] ო. ლორთქიფანიძე, ძველი ქართული ცივილიზაციის სათავეებთან, თბილისის უნივერსიტეტის გამომცემლობა, 2002<br>[2] ა. კლდიაშვილი, გამოსახულებათა სემანტიკა და სამყაროს მოდელი წინაქრისტიანული ხანის ქართულ კულტურაში<br>[3] K. Tuite, University of Montreal, CESS Conference 2017, “The institutional and vernacular cults of the military saints in the western Caucasus: Image-mediated diffusion and body shift in the cult of St Eustace",
+      "ka": "[1] ო. ლორთქიფანიძე, ძველი ქართული ცივილიზაციის სათავეებთან, თბილისის უნივერსიტეტის გამომცემლობა, 2002<br>[2] ა. კლდიაშვილი, გამოსახულებათა სემანტიკა და სამყაროს მოდელი წინაქრისტიანული ხანის ქართულ კულტურაში<br>[3] K. Tuite, University of Montreal, CESS Conference 2017, “The institutional and vernacular cults of the military saints in the western Caucasus: Image-mediated diffusion and body shift in the cult of St Eustace",
+      "de": "[1] ო. ლორთქიფანიძე, ძველი ქართული ცივილიზაციის სათავეებთან, თბილისის უნივერსიტეტის გამომცემლობა, 2002<br>[2] ა. კლდიაშვილი, გამოსახულებათა სემანტიკა და სამყაროს მოდელი წინაქრისტიანული ხანის ქართულ კულტურაში<br>[3] K. Tuite, University of Montreal, CESS Conference 2017, “The institutional and vernacular cults of the military saints in the western Caucasus: Image-mediated diffusion and body shift in the cult of St Eustace"
     },
     "image": "images/photo3.jpg",
     "map": "assets/CaucasusMap.svg",
