@@ -1,0 +1,33 @@
+[
+  {
+    "id": "semiotics-of-caucasian-symbolism",
+    "featured": true,
+    "title": {
+      "en": "The Semiotics of Caucasian Symbolism",
+      "ka": "კავკასიური სიმბოლიკის სემიოტიკა",
+      "de": "Die Semiotik der kaukasischen Symbolik"
+    },
+    "excerpt": {
+      "en": "An exploration into the ancient geometric motifs and visual language of the Caucasus",
+      "ka": "კ",
+      "de": "E"
+    },
+    "content": {
+      "en": "a\n\na",
+      "ka": "a.",
+      "de": "a."
+    },
+    "image": "/assets/banner.jpg",
+    "author": {
+      "en": "Mikheil Juruli",
+      "ka": "მიხეილ ჟურული",
+      "de": "Mikheil Juruli"
+    },
+    "date": "2026-07-13",
+    "footnotes": {
+      "en": "See Chubinashvili, G. (1959) on the geometric progression of early medieval Georgian stone reliefs.",
+      "ka": "იხ. ჩუბინაშვილი, გ. (1959) ადრეული შუა საუკუნეების ქართული ქვის რელიეფების გეომეტრიული პროგრესიის შესახებ.",
+      "de": "Siehe Tschubinaschwili, G. (1959) zur geometrischen Progression frühmittelalterlicher georgischer Steinreliefs."
+    }
+  }
+]

@@ -1,158 +1,348 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark" data-lang="en">
+<html lang="en" data-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lexicon of Caucasian Symbolism">
-    <meta name="keywords" content="caucasus, georgia, symbolism, symbol, dictionary, lexicon, history, culture, art">
-    
-    <!--OGP social media meta tags-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caucasus Lexicon</title>
+  <!-- Google Fonts: Cormorant Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
 
-    <!--Facebook Meta Tags-->
-    <meta property="og:url" content="https://www.caucasuslexicon.cv/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Compendium Caucasia">
-    <meta property="og:description" content="This Website seeks to compile the ancient symbols of caucasus, their descriptions and origins, all in one accessible place.">
-    <meta property="og:image" content="https://raw.githubusercontent.com/fatsnake1/CaucasusLexicon/refs/heads/main/assets/opengraphbanner.jpg">
+  <!-- OGP social media meta tags -->
 
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="caucasuslexicon.cv">
-    <meta property="twitter:url" content="https://www.caucasuslexicon.cv/">
-    <meta name="twitter:title" content="Compendium Caucasia">
-    <meta name="twitter:description" content="This Website seeks to compile the ancient symbols of caucasus, their descriptions and origins, all in one accessible place.">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/fatsnake1/CaucasusLexicon/refs/heads/main/assets/opengraphbanner.jpg">
+  <meta property="og:url" content="https://www.caucasuslexicon.cv/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Caucasus Lexicon">
+  <meta property="og:description" content="This Website seeks to compile the ancient symbols of caucasus, their descriptions and origins, all in one accessible place.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/fatsnake1/CaucasusLexicon/refs/heads/main/assets/opengraphbanner.jpg">
 
-    <title>Compendium Caucasia</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="assets/favicon.png">"
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="caucasuslexicon.cv">
+  <meta property="twitter:url" content="https://www.caucasuslexicon.cv/">
+  <meta name="twitter:title" content="Caucasus Lexicon">
+  <meta name="twitter:description" content="This Website seeks to compile the ancient symbols of caucasus, their descriptions and origins, all in one accessible place.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/fatsnake1/CaucasusLexicon/refs/heads/main/assets/opengraphbanner.jpg">
+
+  <title>Caucasus Lexicon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png">"
+
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#home" class="logo">
-                <img src="assets/LogoLight.svg" alt="Compendium Caucasian Logo">
-            </a>
 
-            <ul class="nav-links">
-                <li><a href="#home" class="nav-link active" data-i18n="nav-home">Home</a></li>
-                <li><a href="#dictionary" class="nav-link" data-i18n="nav-dict">Dictionary</a></li>
-                <li><a href="#contact" class="nav-link" data-i18n="nav-contact">Contact</a></li>
-            </ul>
+  <!-- Sticky Elegant Navigation Bar -->
+  <header id="main-nav" class="nav-bar">
+    <div class="nav-container">
+      <a href="#home" id="nav-brand" class="brand-link">
+        <span class="brand-text">CAUCASUS LEXICON</span>
+        <span class="brand-sub">კავკასიური ლექსიკონი</span>
+      </a>
 
-            <div class="nav-controls">
-                <select id="lang-toggle" class="lang-select">
-                    <option value="en">EN</option>
-                    <option value="ka">KA</option>
-                    <option value="de">DE</option>
-                </select>
-                <button id="theme-toggle" aria-label="Toggle Theme">
-                    <span class="sun-icon">○</span>
-                </button>
-            </div>
+      <!-- Desktop Navigation Menu -->
+      <nav id="desktop-menu" class="nav-links">
+        <a href="#home" class="nav-link-item" data-key="nav-home">Home</a>
+        <a href="#article" class="nav-link-item" data-key="nav-article">Article</a>
+        <a href="#dictionary" class="nav-link-item" data-key="nav-dictionary">Dictionary</a>
+        <a href="#contact" class="nav-link-item" data-key="nav-contact">Contact</a>
+      </nav>
+
+      <!-- Language Switcher & Controls -->
+      <div class="nav-controls">
+        <div id="language-selector" class="lang-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="ka">KA</button>
+          <button class="lang-btn" data-lang="de">DE</button>
         </div>
-    </nav>
 
-    <main>
-        <!-- Hero Section -->
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <h1 class="fade-in" data-i18n="hero-title">Lexicon of Caucasian Symbolism: Ancient Wisdom in Visual Tradition</h1>
-                <p class="mission-statement fade-in" data-i18n="hero-desc">
-                    This Website seeks to compile the ancient symbols of caucasus, their descriptions and origins, all in one accessible place.
-                </p>
-                <div class="scroll-indicator">↓</div>
-            </div>
-        </section>
+        <!-- Monochromatic Light/Dark Toggle -->
+        <button id="theme-toggle" class="control-icon-btn" aria-label="Toggle visual theme">
+          <!-- SVG Moon (Dark) -->
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- SVG Sun (Light) -->
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.22" x2="5.64" y2="17.78"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
 
-        <!-- Dictionary Section -->
-        <section id="dictionary" class="dictionary">
-            <div class="section-header">
-                <h2 data-i18n="dict-title">Symbol Dictionary</h2>
-                <div class="controls">
-                    <input type="text" id="search-bar" placeholder="Search symbols...">
-                    
-                    <div class="filters">
-                        <button class="filter-btn active" data-category="all" data-i18n="cat-all">All</button>
-                        <button class="filter-btn" data-category="Celestial" data-i18n="cat-celestial">Celestial</button>
-                        <button class="filter-btn" data-category="Nature" data-i18n="cat-nature">Nature</button>
-                        <button class="filter-btn" data-category="Geometric" data-i18n="cat-geometric">Geometric</button>
-                        <button class="filter-btn" data-category="Animalistic" data-i18n="cat-animal">Animalistic</button>
-                        <button class="filter-btn" data-category="Christian" data-i18n="cat-christian">Christian</button>
-                    </div>
-
-                    <button id="view-toggle" class="btn-view-toggle">List View</button>
-                </div>
-            </div>
-
-            <div id="symbols-grid" class="symbols-grid">
-                <!-- Symbols will be injected by JavaScript -->
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="contact">
-            <div class="contact-container">
-                <h2 data-i18n="contact-title">Get in Touch</h2>
-                <div class="contact-grid">
-                    <div class="contact-info">
-                        <p data-i18n="contact-desc">Interested in Caucasian symbolism? Contact me for research collaborations or high-resolution assets.</p>
-                        <a href="mailto:mishojuruli@gmail.com" class="contact-link">mishojuruli@gmail.com</a>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/nakurtxi.accounti/" target="_blank">Instagram</a>
-                        <a href="https://fatsnake1.github.io/PersonalWebsite/" target="_blank">CV/Portfolio</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Modal -->
-    <div id="modal-overlay" class="modal-overlay">
-        <div class="modal-content">
-            <button class="close-modal">&times;</button>
-            <div class="modal-body">
-                <div class="modal-images">
-                    <div class="main-img-wrapper">
-                        <label data-i18n="modal-label-rep">Symbol Representation</label>
-                        <img id="modal-img" src="" alt="Symbol Image">
-                    </div>
-                    
-                    <div class="map-img-wrapper">
-                        <label><span data-i18n="modal-label-region">Origin</span>: <span id="region-name"></span></label>
-                        <img id="modal-map" src="" alt="Region Map" style="display:none;"> 
-                    </div>
-                </div>
-
-                <div class="modal-text">
-                    <h3 id="modal-title"></h3>
-                    <div id="modal-category"></div>
-                    <p id="modal-desc"></p>
-                    <div id="modal-citations" class="citations-container"></div>
-                </div>
-
-                <div id="pins-container" class="pins-container"></div>
-            </div>
-        </div>
+        <!-- Mobile Hamburg Menu -->
+        <button id="mobile-menu-btn" class="mobile-hamburger" aria-label="Open navigation menu">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+        </button>
+      </div>
     </div>
+  </header>
 
-    <!-- Footer -->
-    <footer>
-        <p data-i18n="footer-text">
-© 2026 Mikheil Juruli / მიხეილ ჟურული
-<br>
-This website is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License v3.0 as published by the Free Software Foundation.
-<br>
-This website is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY.
-<br>
-You can view the full license here: <a href="https://www.gnu.org/licenses/agpl-3.0.html">https://www.gnu.org/licenses/agpl-3.0.html</a>
-<br>  
-Source code is available here: <a href="https://github.com/fatsnake1/CaucasusLexicon#">https://github.com/fatsnake1/CaucasusLexicon#</a>
+  <!-- Mobile Sidebar Menu Overlay -->
+  <div id="mobile-overlay" class="mobile-menu-overlay">
+    <div class="mobile-menu-container">
+      <nav class="mobile-nav-links">
+        <a href="#home" class="mobile-nav-link" data-key="nav-home">Home</a>
+        <a href="#article" class="mobile-nav-link" data-key="nav-article">Article</a>
+        <a href="#dictionary" class="mobile-nav-link" data-key="nav-dictionary">Dictionary</a>
+        <a href="#contact" class="mobile-nav-link" data-key="nav-contact">Contact</a>
+      </nav>
+      <div class="mobile-controls-footer">
+        <div class="mobile-lang-switcher">
+          <button class="mobile-lang-btn active" data-lang="en">English</button>
+          <button class="mobile-lang-btn" data-lang="ka">ქართული</button>
+          <button class="mobile-lang-btn" data-lang="de">Deutsch</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Website Sections -->
+  <main id="main-content">
+
+    <!-- HOME SECTION -->
+    <section id="home" class="viewport-hero">
+      <div class="hero-bg-accent"></div>
+      <div class="hero-content">
+        <span class="hero-meta font-mono scroll-fade" data-key="hero-meta">SCHOLARLY INITIATIVE</span>
+
+        <h1 class="hero-title scroll-fade">
+          <span class="hero-title-main">CAUCASUS LEXICON</span>
+        </h1>
+
+
+
+        <p class="hero-quote scroll-fade">
+          <span id="hero-quote-text">“The stone remembers what human languages have forgotten.”</span>
         </p>
-    </footer>
 
-    <script src="script.js"></script>
+        <!-- Animated Scroll Prompt -->
+        <a href="#article" class="scroll-prompt scroll-fade">
+          <span class="prompt-text font-mono" data-key="scroll-explore">SCROLL TO EXPLORE</span>
+          <div class="prompt-line-container">
+            <div class="prompt-line"></div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ARTICLES SECTION -->
+    <section id="article" class="section-container">
+      <div class="section-header scroll-fade">
+        <div class="section-number font-mono">01 /</div>
+        <h2 class="section-title" data-key="article-title">ARCHIVAL INQUIRIES</h2>
+        <p class="section-subtitle" data-key="article-subtitle">Scholarly articles on Caucasian semiotics, material culture, and mythological systems.</p>
+        <hr class="thin-divider" />
+      </div>
+
+      <!-- Pinned Featured Article Block -->
+      <div id="featured-article-container" class="featured-article-section scroll-fade" style="display: none;">
+        <!-- Dynamically loaded featured article -->
+      </div>
+
+      <!-- Dynamically loaded articles list -->
+      <div id="articles-container" class="articles-editorial-list scroll-fade">
+        <div class="loading-state font-mono">Retrieving academic manuscripts...</div>
+      </div>
+
+      <!-- Extend Article Button -->
+      <div id="article-extend-wrapper" class="extend-section-wrapper scroll-fade" style="display: none;">
+        <button id="extend-article-btn" class="extend-btn font-mono">
+          <span class="btn-brackets">[</span>
+          <span class="btn-lbl" data-key="extend-article-lbl">EXTEND ARTICLE ENTRIES</span>
+          <span class="btn-brackets">]</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- DICTIONARY SECTION -->
+    <section id="dictionary" class="section-container">
+      <div class="section-header scroll-fade">
+        <div class="section-number font-mono">02 /</div>
+        <h2 class="section-title" data-key="dictionary-title">THE SYMBOLIC LEXICON</h2>
+        <p class="section-subtitle" data-key="dictionary-subtitle">A curated database of ancestral symbols, petroglyphic diagrams, and historical iconography.</p>
+        <hr class="thin-divider" />
+      </div>
+
+      <!-- Controls: Search & Tags Filter -->
+      <div id="lexicon-controls" class="lexicon-controls-block scroll-fade">
+        <!-- Minimalist Search Input -->
+        <div class="search-wrapper">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="dictionary-search" class="font-mono" placeholder="Search by name, region, keyword..." aria-label="Search lexicon" />
+          <button id="search-clear-btn" class="clear-btn font-mono" aria-label="Clear search" style="display: none;">[clear]</button>
+        </div>
+
+        <!-- Tag Filters Bar -->
+        <div class="tag-filters-container">
+          <span class="tag-label font-mono" data-key="filter-by">FILTER:</span>
+          <div id="tag-filters-list" class="tags-pills-row font-mono">
+            <button class="tag-pill active" data-filter="all" data-key="filter-all">All</button>
+            <!-- Tags will be dynamically injected with counts -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Dynamic Active Filters Stats -->
+      <div id="lexicon-stats" class="lexicon-stats-bar font-mono scroll-fade">
+        <span class="results-count"><span id="active-count">0</span> / <span id="total-count">0</span> <span data-key="results-found">symbols indexed</span></span>
+        <button id="reset-filters" class="reset-link" style="display: none;" data-key="reset-filters">Reset filters</button>
+      </div>
+
+      <!-- Grid of Symbol Cards -->
+      <div id="symbols-grid" class="symbols-grid-layout scroll-fade">
+        <div class="loading-state font-mono">Cataloging symbolic registry...</div>
+      </div>
+
+      <!-- Extend Dictionary Button -->
+      <div id="dictionary-extend-wrapper" class="extend-section-wrapper scroll-fade" style="display: none;">
+        <button id="extend-dictionary-btn" class="extend-btn font-mono">
+          <span class="btn-brackets">[</span>
+          <span class="btn-lbl" data-key="extend-dictionary-lbl">EXTEND LEXICON</span>
+          <span class="btn-brackets">]</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section-container">
+      <div class="section-header scroll-fade">
+        <div class="section-number font-mono">03 /</div>
+        <h2 class="section-title" data-key="contact-title">EPILOGUE & COGNITION</h2>
+        <p class="section-subtitle" data-key="contact-subtitle">Collaborative avenues, academic submissions, and digital stewardship.</p>
+        <hr class="thin-divider" />
+      </div>
+
+      <div class="contact-grid-layout scroll-fade">
+        <!-- Column 1: Academic Scope -->
+        <div class="contact-col">
+          <h3 class="contact-col-title font-mono" data-key="scope-title">CONTRIBUTE</h3>
+          <p class="contact-col-text" data-key="scope-desc">
+            The Caucasus Lexicon is an ongoing cross-disciplinary digital stewardship effort. We welcome research submissions, iconographical vector models, and translations from ethnologists, linguists, and anthropologists of Caucasian heritage.
+          </p>
+          <p class="contact-action">
+            <a href="https://www.gnu.org/licenses/agpl-3.0.html" class="text-underline font-mono">License</a>
+            <br>
+            <a href="https://github.com/fatsnake1/CaucasusLexicon#" class="text-underline font-mono">Source Code</a>
+          </p>
+        </div>
+
+        <!-- Column 2: Digital Stewardship -->
+        <div class="contact-col">
+          <h3 class="contact-col-title font-mono" data-key="steward-title">ARCHIVE DETAILS</h3>
+          <p class="contact-col-text" data-key="steward-desc">
+            This digital system aims to preserve, catalog, and make universally accessible the highly endangered symbols, rock carvings, and folklore architecture of Georgia and the wider Caucasus regions. All diagrams are drawn from archaeological findings.
+          </p>
+          <div class="citation-note font-mono">
+            <span data-key="citation-lbl">STATUS:</span> ACTIVE SINCE 2026<br />
+            <span data-key="typography-lbl">TYPOGRAPHY:</span> Cormorant, Iosevka Nerd Font, Acadmtvr, Sanet
+          </div>
+        </div>
+
+        <!-- Column 3: Contact Channels -->
+        <div class="contact-col">
+          <h3 class="contact-col-title font-mono" data-key="connect-title">INQUIRIES</h3>
+          <p class="contact-col-text" data-key="connect-desc">
+            For inquiries.
+          </p>
+          <ul class="contact-links font-mono">
+            <li>Email: <a href="mailto:caucasuslexicon@proton.me" class="text-underline">caucasuslexicon@proton.me</a></li>
+            <li>Personal Website: <a href="https://fatsnake1.github.io/PersonalWebsite/" class="text-underline">Here</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Footer -->
+      <footer id="main-footer" class="scroll-fade">
+        <hr class="thin-divider" />
+        <div class="footer-layout font-mono">
+          <div class="footer-left">
+            <span>2026 CAUCASUS LEXICON</span>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+  </main>
+
+  <!-- DETAIL OVERLAY MODAL FOR SYMBOLS -->
+  <div id="detail-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-bg-trigger" id="modal-close-bg"></div>
+    <div class="modal-window">
+      <!-- Modal Header Close Button -->
+      <button id="modal-close-btn" class="modal-close-icon" aria-label="Close modal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-inner-grid">
+        <!-- Visual Section (Sticky Image/Map Tabs) -->
+        <div class="modal-visual-pane">
+          <div class="modal-image-display" id="modal-image-wrap-1" style="display: flex;">
+            <img id="modal-image-1" src="" alt="Symbol Context image 1" referrerPolicy="no-referrer" />
+          </div>
+          <div class="modal-image-display" id="modal-image-wrap-2" style="display: none;">
+            <img id="modal-image-2" src="" alt="Symbol Context image 2" referrerPolicy="no-referrer" />
+          </div>
+          <div class="modal-map-display" id="modal-map-wrap" style="display: none;">
+            <img id="modal-map" src="" alt="Symbol Origin Map" referrerPolicy="no-referrer" />
+          </div>
+          <div class="modal-visual-tabs font-mono">
+            <button class="visual-tab-btn active" id="tab-img1-btn">[ PHOTO 1 ]</button>
+            <button class="visual-tab-btn" id="tab-img2-btn">[ PHOTO 2 ]</button>
+            <button class="visual-tab-btn" id="tab-map-btn">[ ORIGIN ]</button>
+          </div>
+        </div>
+
+        <!-- Text Context Section -->
+        <div class="modal-text-pane">
+          <div class="modal-meta font-mono">
+            <span id="modal-origin-label">ORIGIN:</span> <span id="modal-origin" class="highlight-meta">Georgia / Svaneti</span>
+          </div>
+
+          <h2 id="modal-title" class="modal-headline">Borjgali</h2>
+
+          <div class="modal-tags-row font-mono" id="modal-tags">
+            <!-- Dynamically loaded tags -->
+          </div>
+
+          <hr class="thin-divider" />
+
+          <div class="modal-body-content">
+            <p id="modal-description">Detailed archaeological and cultural description of the symbol goes here...</p>
+          </div>
+
+          <div class="modal-scholarly-notes">
+            <hr class="thin-divider-dim" />
+
+            <div class="scholarly-block" id="modal-notes-block">
+              <span class="note-heading font-mono" data-key="notes-lbl">ARCHIVAL FOOTNOTES:</span>
+              <p id="modal-footnotes" class="note-text font-serif">Footnotes detailing historical sightings and astronomical links.</p>
+            </div>
+
+            <div class="scholarly-block" id="modal-refs-block">
+              <span class="note-heading font-mono" data-key="refs-lbl">ACADEMIC REFERENCES:</span>
+              <p id="modal-references" class="note-text font-mono">Academic papers and literary source materials citation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/script.js"></script>
 </body>
 </html>

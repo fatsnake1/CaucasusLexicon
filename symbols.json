@@ -1,0 +1,98 @@
+[
+  {
+    "id": "borjgali",
+    "name": {
+      "en": "Borjgali",
+      "ka": "ბორჯღალი",
+      "de": "Borjgali"
+    },
+    "origin": {
+      "en": "Kura-Araxes Culture",
+      "ka": "მტკვარაქსული კულტურა",
+      "de": "Kura-Araxes Kultur"
+    },
+    "tags": ["Celestial", "Geometric"],
+    "image": "images/photo1.jpg",
+    "image2": "images/photo1.jpg",
+    "map": "assets/Kura-Araxes.png",
+    "shortDescription": {
+      "en": "The astral symbol of the Sun, now transformed into a traditional Caucasian ornament.",
+      "ka": "მზის ასტრალური სიმბოლო, ტრადიციულ ქართულ-კავკასიურ ორნამენტად გარდასახული.",
+      "de": "Der astrale Symbol des Sonnens, nun zu einem traditionellen kaukasischen Ornament verwandelt."
+    },
+    "fullDescription": {
+      "en": "The symbol of Borjghali is deeply entwined with proto-georgian roots. The oldest examples we have of this symbol comes form the Kura-Araxes culture (Mid-4th to Early-3rd Millennium BCE). Etymologically the word borjghali connects to a Georgian word that means 'something with branches', deers and stags with big and spiraling horns would often be referred to as a 'horn-borjghali'. The visual representation of this symbol is quite simple. Many Swastika crosses spiral along a single intersecting point. The most common variant of the Borjghali is the 7-winged one but there are variants all the way from 8-12 wings. Semantically this symbol represents the sun. The light of this world, that which moves everything. The borjghali used to be present everywhere: on walls, tools, axes, pottery, pillars, etc. We can extrapolate from this that back then this symbol had a protective quality, probably believed to ward off evil or suffering. Today this symbol has become a simple ornament, it is portrayed on the Georgian passport and currency.",
+      "ka": "ბორჯღალის სიმბოლო პროტოქართულ საფუძვლებს უკავშირდება. კავკასიის ტერიტორიაზე სსვასტიკის ყველაზე ადრეული ნიმუშები მტკვარ-არაქსის კულტურაში ჩნდება (ძვ.წ IV ათასწლეულის მეორე ნახევარი - ძვ.წ III ათასწლეულის პირველი ნახევარი). სიტყვა 'ბორჯღალის' ეტიმოლოგია მრავალგვარად შეგვიძლია განვიხილოთ. თვითონ სიტყვა მრავალტოტიანობას გამოხატავს, ქორბუდა ირემზე იტყვიან 'რქაბორჯღალიანიაო'. ვიზუალურად ბორჯღალი გადაკვეთის წერტილის გარშეომ დატრიალუებულ სვასტიკურ ჯვარს წარმოადგენს. ყველაზე გავრცელებული ბორჯღალის 7-ქიმიანი ვარიანტია, თუმცა 8-12 ქიმიანი ვარიანტებიც არსებობენ. სემანტიკურად სიმბოლო მზის ასტრალური ნიშანია. სამყაროს მნათობი და მამოძრავებელი. ეს სიმბოლო გხვდებოდა ყველგან: ცულებზე, იარაღებზე, ხელსაწყოებზე, ავეჯზე, კედლებზე და ა.შ. სავარაუდოდ დამცველ მნიშვნელობასაც ატარებდა. დღესდღეობით ბორჯღალი ყოველი ქართველისთვის ცნობილი ორნამენტია. ბორჯღალს გამოვხატავთ, როგორც პასპორტზე, ისე 20-თეთრიანზე.",
+      "de": "Das Borjghali-Symbol ist tief in den protogeorgischen Wurzeln verwurzelt. Die ältesten bekannten Belege stammen aus der Kura-Araxes-Kultur (Mitte des 4. bis Anfang des 3. Jahrtausends v. Chr.). Etymologisch leitet sich das Wort „Borjghali“ von einem georgischen Wort ab, das „etwas mit Ästen“ bedeutet. Hirsche und Rehe mit großen, spiralförmigen Geweihen wurden oft als „Horn-Borjghali“ bezeichnet. Die visuelle Darstellung dieses Symbols ist recht einfach. Viele Hakenkreuze winden sich spiralförmig um einen einzigen Schnittpunkt. Die häufigste Variante des Borjghali ist die siebenflügelige, es gibt aber auch Varianten mit acht bis zwölf Flügeln. Semantisch repräsentiert dieses Symbol die Sonne – das Licht der Welt, das alles bewegt. Das Borjghali war einst allgegenwärtig: auf Wänden, Werkzeugen, Äxten, Töpferwaren, Säulen usw. Daraus lässt sich schließen, dass dieses Symbol damals eine Schutzfunktion besaß und vermutlich vor Bösem und Leid bewahrte. Heute ist es zu einem schlichten Schmuckstück geworden und ziert den georgischen Pass und die Banknoten."
+    },
+    "footnotes": {
+      "en": "Na",
+      "ka": "na",
+      "de": "na"
+    },
+    "references": {
+      "en":[
+      "1. ზურაბ კიკნაძე: ქართული მითოლოგიის ენციკლოპედია",
+      "2. Alexander Mikaberidze: Historical Dictionary of Georgia"
+      ],
+      "ka": [
+      "1. ზურაბ კიკნაძე: ქართული მითოლოგიის ენციკლოპედია",
+      "2. Alexander Mikaberidze: Historical Dictionary of Georgia"
+      ],
+      "de": [
+      "1. ზურაბ კიკნაძე: ქართული მითოლოგიის ენციკლოპედია",
+      "2. Alexander Mikaberidze: Historical Dictionary of Georgia"
+      ]
+    }
+  },
+
+  {
+    "id": "Stag and Deer",
+    "name": {
+      "en": "Stag and Deer",
+      "ka": "ირემი",
+      "de": "Hirsche und Rehe"
+    },
+    "origin": {
+      "en": "Trialeti (Small Khrami)",
+      "ka": "თრიალეთი (პატარა ხრამი)",
+      "de": "Trialeti (Kleines Chrami)"
+    },
+    "tags": ["Animalistic", "Christian"],
+    "image": "images/photo3.jpg",
+    "image2": "images/photo3.jpg",
+    "map": "assets/CaucasusMap.svg",
+    "shortDescription": {
+      "en": "A divine animal, thought to connect the realms with it's horns.",
+      "ka": "მოიაზრებოდა, რომ ეს საკრალური ცხოველი სკნელებს თავისი რქებით აკავშირებდა.",
+      "de": "Ein göttliches Tier, dessen Hörner die Welten miteinander verbinden sollen."
+    },
+    "fullDescription": {
+      "en": "Traces of the deer totem can be found in the Caucasus as early as the Eneolithic era, on the cliff carvings of Trialeti (Small Khrami). The ancient people of Georgia-Caucasia believed that the deer connected the heavens(upper realm) to earth(middle earth). The symbolic role of the deer does not end here; in ancient depictions of hunting scenes, the deer revealed all that was sacred and divine to man. The coming of Christianity translated and combined these deer related hunting myths into the legend of St. Eustatius. While hunting deer, christ appeared to the Roman general Placidus. A nimbus rose above the deer's head and Placidus was baptized as St. Eustatius. In Christianity, the role of the deer became that of an animal that connects man to God.",
+      "ka": "ირმის კულტის კვალი კვალი კავკასიაში ენეოლითშივე გხვდება, თრიალეთის  (პატარა ხრამის) კლდის ნაკაწრებზე. ძველი ქართულ-კავკასიური ხალხების წარმოდგენებში ირემი ზესკნელსა და ქვესკნელს რქებით აკავშირებდა. ირმის სიმბოლური დანიშნულება აქ არ ჩერდება, უძველეს ნადირობის სცენებში ირემი ჭეშმარიტების, მიღმიერი ინფორმაციის გამჭვრეტი ცხოველია. ქრისტიანობის მოდგმამ ნადირობის მითოსი წმ. ევსტატეს ლეგენდად გადათარგმნა. ირმებზე ნადირობისას, რომაელ გენერალ პლაციდუსს მაცხოვარი გამოეცხადა. ირმის თავის ზემოთ შარავანდი ამაღლდა და პლაციდუსი წმ. ევსტატედ მოინათლა. ქრისტიანობაში ირმის როლი ღვთის მაკავშირებელ ცხოველად იქცა.",
+      "de": "Spuren des Hirsch-Totems finden sich im Kaukasus bereits in der Äneolithikumzeit, etwa in den Felszeichnungen von Trialeti (Klein-Chrami). Die alten Bewohner Georgiens und des Kaukasus glaubten, der Hirsch verbinde Himmel und Erde. Doch die symbolische Bedeutung des Hirsches reicht noch weiter: In alten Darstellungen von Jagdszenen offenbarte er dem Menschen alles Heilige und Göttliche. Mit dem Christentum wurden diese hirschbezogenen Jagdmythen in die Legende des Heiligen Eustatius übertragen und miteinander verbunden. Während der Hirschjagd erschien Christus dem römischen Feldherrn Placidus. Ein Nimbus erhob sich über dem Kopf des Hirsches, und Placidus wurde als Heiliger Eustatius getauft. Im Christentum wurde der Hirsch zum Symbol für die Verbindung zwischen Mensch und Gott."
+    },
+    "footnotes": {
+      "en": "Na",
+      "ka": "na",
+      "de": "na"
+    },
+    "references": {
+      "en":[
+        "1. ო. ლორთქიფანიძე, ძველი ქართული ცივილიზაციის სათავეებთან, თბილისის უნივერსიტეტის გამომცემლობა, 2002",
+        "2. ა. კლდიაშვილი, გამოსახულებათა სემანტიკა და სამყაროს მოდელი წინაქრისტიანული ხანის ქართულ კულტურაში",
+        "3. K. Tuite, University of Montreal, CESS Conference 2017, “The institutional and vernacular cults of the military saints in the western Caucasus: Image-mediated diffusion and body shift in the cult of St Eustace"
+      ],
+      "ka": [
+        "1. ო. ლორთქიფანიძე, ძველი ქართული ცივილიზაციის სათავეებთან, თბილისის უნივერსიტეტის გამომცემლობა, 2002",
+        "2. ა. კლდიაშვილი, გამოსახულებათა სემანტიკა და სამყაროს მოდელი წინაქრისტიანული ხანის ქართულ კულტურაში",
+        "3. K. Tuite, University of Montreal, CESS Conference 2017, “The institutional and vernacular cults of the military saints in the western Caucasus: Image-mediated diffusion and body shift in the cult of St Eustace"
+      ],
+      "de": [
+        "1. ო. ლორთქიფანიძე, ძველი ქართული ცივილიზაციის სათავეებთან, თბილისის უნივერსიტეტის გამომცემლობა, 2002",
+        "2. ა. კლდიაშვილი, გამოსახულებათა სემანტიკა და სამყაროს მოდელი წინაქრისტიანული ხანის ქართულ კულტურაში",
+        "3. K. Tuite, University of Montreal, CESS Conference 2017, “The institutional and vernacular cults of the military saints in the western Caucasus: Image-mediated diffusion and body shift in the cult of St Eustace"
+      ]
+    }
+  }
+]
