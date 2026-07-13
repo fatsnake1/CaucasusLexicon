@@ -81,7 +81,7 @@ const localization = {
     'scope-title': 'ლიცენზია',
     'scope-desc': 'This website is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License v3.0 as published by the Free Software Foundation. This website is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. You can view the full license and the Source code below.',
     'steward-title': 'არქივის შესახებ',
-    'steward-desc': 'კავკასიური ლექსიკონი 2026 წელს შეიქმნა. პროექტის ავტორი მიხეილ ჟურულია. დღესდღეობით ჩვეულებრივი ადამიანისთვის ან უცხოელისთვის ინფორმაცია კავკასიური მემკვიდრეობის შესახებ საკმაოდ მიუწვდომელია. ენის ბარიერები, ძველი წყაროები და ამ სფეროს ზოგადი ფრაგმენტულობა ძალიან დიდ დაბრკოლებებს წარმოადგენს. ამ ღია პლატფორმის მიზანი საკმაოდ დიდი მასშტაბის ინფორმაციის ცენტრალიზებაა. იმედია სამომავლოდ ეს პროექტი გაიზრდება და სხვა მკვლევარები შემოგვიერთდებიან არქივისთვის სრულყოფილი სახის მიცემაში.',
+    'steward-desc': 'კავკასიური ლექსიკონი 2026 წელს შეიქმნა. პროექტის ავტორი მიხეილ ჟურულია. ინფორმაცია კავკასიური მემკვიდრეობის შესახებ საკმაოდ შეზღუდულია. ენის ბარიერი, მოძველებული წყაროები და, ზოგადად ამ სფეროს ფრაგმენტულობა ძალიან დიდ დაბრკოლებებს წარმოადგენს. ამ ღია პლატფორმის მიზანი საკმაოდ არსებული სამეცნიერო ინფორმაციის ცენტრალიზებაა. იმედია, სამომავლოდ ეს პროექტი გაიზრდება და სხვა მკვლევარები შემოგვიერთდებიან რათა არქივის სრულყოფილი სახე მიცეს.',
     'typography-lbl': 'ტიპოგრაფია:',
     'connect-title': 'კონტაქტი',
     'connect-desc': 'კოლაბორაციის სურვილის ან სხვა კითხვების შემთხვევაში მოცემულ მეილზე დაგვიკავშირდით.',
@@ -142,7 +142,7 @@ const localization = {
 // Poetic Quote Translations
 const quotes = {
   'en': 'An open-source free platform meant for the digital stewardship of Caucasian heritage',
-  'ka': 'კავკასიური სიმბოლიზმის ღია არქივი',
+  'ka': 'კავკასიური სიმბოლოების ღია არქივი',
   'de': 'Eine kostenlose Open-Source-Plattform zur digitalen Verwaltung des kaukasischen Kulturerbes'
 };
 
