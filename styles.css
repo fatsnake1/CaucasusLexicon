@@ -1429,8 +1429,9 @@ body {
   white-space: pre-wrap;
 }
 .note-text.font-serif {
-  font-family: var(--font-serif);
-  font-size: 0.95rem;
+  font-family: var(--font-sans);
+  font-style: italic;
+  font-size: 0.85rem;
 }
 
 /* --------------------------------------------------------------------------
