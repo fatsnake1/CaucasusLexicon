@@ -1,12 +1,12 @@
-/* ==========================================================================
-   CAUCASUS LEXICON — STYLESHEET
-   ========================================================================== */
+/* STYLESHEET */
+
 
 /* --------------------------------------------------------------------------
-   1. CORE CUSTOM PROPERTIES
+1. CORE CUSTOM PROPERTIES
    -------------------------------------------------------------------------- */
 
-/* LATIN FONTS */
+
+/* FONTS */
 
 @font-face {
     font-family: 'Iosevka';
@@ -43,7 +43,7 @@
 }
 
 :root {
-  /* Font Family Definitions */
+  /* Font Families */
   --font-serif: "Cormorant Garamond", "AcadMtavar", serif;
   --font-sans: "Iosevka", "Sanet", sans-serif;
   --font-mono: "IosevkaMedium", "Sanet", monospace;
@@ -58,7 +58,7 @@
   --content-width: 1200px;
 }
 
-/* Light Theme (Archival Paper-like) */
+/* Light Theme */
 [data-theme="light"] {
   --bg-primary: #faf9f6;      /* Off-white, warm museum cardstock */
   --bg-secondary: #f3f1eb;    /* Slightly darker accent paper */
@@ -77,7 +77,7 @@
   --illustration-opacity: 0.95;
 }
 
-/* Dark Theme (Cinematic, Illuminated Museum) */
+/* Dark Theme */
 [data-theme="dark"] {
   --bg-primary: #0a0a0a;      /* Pitch black gallery backplane */
   --bg-secondary: #121212;    /* Subtle raised stone platform */
@@ -138,7 +138,7 @@ body {
   background: var(--text-tertiary);
 }
 
-/* Utility Typographic Classes */
+/* Font Classes */
 .font-serif { font-family: var(--font-serif); }
 .font-sans { font-family: var(--font-sans); }
 .font-mono { font-family: var(--font-mono); font-size: 0.85rem; letter-spacing: -0.02em; }
@@ -853,14 +853,14 @@ body {
   margin-bottom: 2rem;
 }
 .article-full-manuscript p::first-letter {
-  font-size: 2.2rem;
+  font-size: 10rem;
   font-weight: 600;
   float: left;
   line-height: 0.9;
   margin-right: 0.5rem;
   margin-top: 0.1rem;
   color: var(--text-primary);
-  font-family: var(--font-Seriff);
+  font-family: var(--font-serif);
 }
 
 .article-academic-notes {
@@ -1307,7 +1307,8 @@ body {
   height: 100%;
   max-width: 420px;
   max-height: 420px;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: #FFFFFF;
   border: 1px solid var(--border-color);
   filter: grayscale(100%) contrast(105%);
 }

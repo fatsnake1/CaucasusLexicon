@@ -37,7 +37,7 @@ const localization = {
     'results-found': 'symbols indexed',
     'reset-filters': 'Reset filters',
     'contact-title': 'CONTACT & INQUIRY',
-    'contact-subtitle': 'Collaborative avenues, academic submissions, and digital stewardship.',
+    'contact-subtitle': 'Collaborative avenues, academic submissions and digital stewardship.',
     'scope-title': 'LICENSE',
     'scope-desc': 'This website is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License v3.0 as published by the Free Software Foundation. This website is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. You can view the full license and the Source code below.',
     'steward-title': 'ABOUT',
@@ -433,7 +433,7 @@ function renderArticles() {
   if (extendWrapper) {
     if (regularArticles.length > 1) {
       extendWrapper.style.display = 'flex';
-      const extendBtn = document.getElementById('extend-articlebtn');
+      const extendBtn = document.getElementById('extend-article-btn');
       if (extendBtn) {
         const labelKey = isArticleExtended ? 'collapse-article-lbl' : 'extend-article-lbl';
         extendBtn.querySelector('.btn-lbl').textContent = localization[currentLang][labelKey];
