@@ -1310,7 +1310,7 @@ body {
   max-width: 420px;
   max-height: 420px;
   object-fit: contain;
-  filter: grayscale(100%) contrast(105%);
+  filter: contrast(105%);
 }
 
 .modal-map-display {
