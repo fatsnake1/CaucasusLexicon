@@ -1274,7 +1274,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 4rem 2rem 2.5rem 2rem;
+  padding: 4rem 0.5rem 2.5rem 0.5rem;
   height: 100%;
   position: relative;
 }
@@ -1307,10 +1307,9 @@ body {
 .modal-image-display img {
   width: 100%;
   height: 100%;
-  max-width: 420px;
-  max-height: 420px;
+  max-width: 500px;
+  max-height: 500px;
   object-fit: contain;
-  filter: contrast(105%);
 }
 
 .modal-map-display {
@@ -1569,9 +1568,29 @@ body {
   .modal-visual-pane {
     border-right: none;
     border-bottom: 1px solid var(--border-color);
-    padding: 4rem 1.5rem 1.5em 1.5rem;
+    padding: 4rem 1.5rem 1.5rem 1.5rem;
     height: 350px;
   }
+
+  .modal-image-display {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 1rem;
+  }
+
+  .modal-image-display img {
+    width: 100%;
+    height: 100%;
+    max-width: 420px;
+    max-height: 420px;
+    object-fit: contain;
+    filter: contrast(105%);
+  }
+
   .modal-text-pane {
     padding: 2.5rem 2rem;
     overflow-y: visible;
@@ -1598,9 +1617,7 @@ body {
   .section-title {
     font-size: 1.85rem;
   }
-  .symbol-card-visual {
-    padding: 2rem;
-  }
+
   .modal-visual-pane {
     height: 280px;
   }
